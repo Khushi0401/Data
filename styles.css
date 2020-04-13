@@ -17,6 +17,9 @@ body {
 a{
   float: right;
 }
+a:hover{
+  color: white;
+}
 .button {
   background-color: #2DB1FE;
   border: none;
@@ -28,8 +31,28 @@ a{
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  width: 100%;
+  min-width: 50px;  
+  max-width: 300px; 
 }
 
+@media(max-width: 500px){
+  .button {
+  background-color: #2DB1FE;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 8px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+  min-width: 50px;  
+  max-width: 300px; 
+}
+}
 div.b{
   text-align: left;
   text-justify: inter-word;
@@ -56,13 +79,13 @@ div.b{
 }
 .center-left {
   position: absolute;
-  top: 70%;
-  left: 10%;
+  top: 30vw;
+  left: 10vw;
 }
 .top-left {
   position: absolute;
-  top: 8%;
-  left: 10%;
+  top: 2vw;
+  left: 5vw;
   text-indent: left;
 }
 * {
