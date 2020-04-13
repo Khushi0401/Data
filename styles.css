@@ -22,7 +22,7 @@ a:hover{
 }
 .button {
   background-color: #2DB1FE;
-  border: none;3.
+  border: none;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -80,8 +80,8 @@ div.b{
 }
 .center-left {
   position: absolute;
-  top: 30vw;
-  left: 10vw;
+  top: 70%;
+  left: 10%;
 }
 .top-left {
   position: absolute;
@@ -99,11 +99,11 @@ div.b{
   display: table;
 }
 
-[class*="col-"] {
+[class:"col-md"] {
   float: left;
   padding: 15px;
 }
-.col-6 {width: 50%;}
+col-md-6 {width: 50%;}
 .responsive {
   max-width: 30%;
   height: auto;
