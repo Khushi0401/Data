@@ -67,6 +67,9 @@ div.b{
   padding-right: 10px;
   display: inline-block;
 }
+#new{
+  text-align: center;
+}
 #block2{
   background-color: #2DB1FE;
   width: 100%;
